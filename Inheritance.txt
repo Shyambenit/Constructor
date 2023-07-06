@@ -1,0 +1,27 @@
+class metasploit {
+    void vulnerabilities() {
+        System.out.println("vulnerabilities");
+    }
+}
+    class keyloggers extends metasploit {
+        void spoofing() {
+            System.out.println("spoofing");
+        }
+        }
+
+        class sniffing extends keyloggers{
+            void attack(){
+                System.out.println("attack");
+            }
+        }
+
+        class linux
+        {
+            public static void main(String[] args){
+                sniffing a = new sniffing ();
+                a.spoofing();
+                a.vulnerabilities();
+                a.attack();
+
+            }
+        }
